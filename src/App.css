@@ -1,0 +1,82 @@
+body {
+  background-color: #E8E8E8;
+  margin: 0; /* Elimina el margen predeterminado del cuerpo */
+  padding: 0; /* Elimina el relleno predeterminado del cuerpo */
+  font-family: 'Lobster';
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 2.5em; /* Ajusta según sea necesario */
+  font-weight: bold; /* Puede variar según el diseño deseado */
+  color: #333333; /* Color del texto para un buen contraste */
+  text-align: center; /* Centra el texto */
+  margin: 10px 0; /* Añade espacio debajo del encabezado */
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.2em; /* Ajusta según sea necesario */
+  color: #666666; /* Puedes elegir un gris más claro para el texto */
+  text-align: center; /* Centra el texto */
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #E8E8E8;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #333333;
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* Estilos del banner */
+.banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px; /* Altura máxima del banner, ajusta según sea necesario */
+  margin: 20px 0;
+  background-color: #E8E8E8;
+  object-fit: cover;
+  border-radius: 10%;
+  margin: 0 10px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
