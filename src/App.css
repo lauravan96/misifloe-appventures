@@ -1,24 +1,24 @@
 body {
   background-color: #E8E8E8;
-  margin: 0; /* Elimina el margen predeterminado del cuerpo */
-  padding: 0; /* Elimina el relleno predeterminado del cuerpo */
+  margin: 0; 
+  padding: 0; 
   font-family: 'Lobster';
 }
 
 h1 {
   font-family: 'Lobster', cursive;
-  font-size: 2.5em; /* Ajusta según sea necesario */
-  font-weight: bold; /* Puede variar según el diseño deseado */
-  color: #333333; /* Color del texto para un buen contraste */
-  text-align: center; /* Centra el texto */
-  margin: 10px 0; /* Añade espacio debajo del encabezado */
+  font-size: 2.5em; 
+  font-weight: bold; 
+  color: #333333; 
+  text-align: center; 
+  margin: 10px 0; 
 }
 
 p {
   font-family: 'Quicksand', sans-serif;
-  font-size: 1.2em; /* Ajusta según sea necesario */
-  color: #666666; /* Puedes elegir un gris más claro para el texto */
-  text-align: center; /* Centra el texto */
+  font-size: 1.2em; 
+  color: #666666; 
+  text-align: center; 
 }
 
 
@@ -53,7 +53,6 @@ p {
   color: #61dafb;
 }
 
-/* Estilos del banner */
 .banner-container {
   display: flex;
   justify-content: center;
@@ -64,7 +63,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200px; /* Altura máxima del banner, ajusta según sea necesario */
+  height: 200px; 
   margin: 20px 0;
   background-color: #E8E8E8;
   object-fit: cover;

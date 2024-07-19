@@ -1,31 +1,21 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './App.css';
+import Gallery from './Gallery';
 
 
 function App() {
-  const [gatos, setGatos] = useState([]);
-
-  useEffect(() => {
-    fetch('/api/gatos')
-      .then(res => res.json())
-      .then(data => setGatos(data.gatos))
-      .catch(error => console.error('Error al obtener la lista de gatos', error));
-  }, []);
-
   return (
     <div className="App">
-      {/* Encabezado h1 */}
-      <h1>Bienvenido al Mundo Mágico de Misifu y Cloe</h1>
-
-      {/* Banner */}
+      <h1>Welcome to the Magical World of Misifu and Cloe</h1>
+      
       <div className="banner-container">
-        <img className="banner" src={process.env.PUBLIC_URL + '/cloeBannerImage.jpg'} alt="Cloe" />
-        <img className="banner" src={process.env.PUBLIC_URL + '/misifloeBannerImage.jpg'} alt="Cloe" />
-        <img className="banner" src={process.env.PUBLIC_URL + '/misifuBannerImage.jpg'} alt="Misifu" />
-      </div>
+        <img className="banner" src={'/images/cloeBannerImage.jpg'} alt="Cloe" />
+        <img className="banner" src={'/images/misifloeBannerImage.jpg'} alt="Cloe" />
+        <img className="banner" src={'/images/misifuBannerImage.jpg'} alt="Misifu" />
+      </div>      
 
-      {/* Párrafo p */}
-      <p>Aventuras de gatos: {gatos.join(', ')}</p>
+      <Gallery />
+
     </div>
   );
 }
