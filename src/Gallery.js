@@ -5,7 +5,7 @@ const photos = [
   { src: '/images/cloePlaying.jpg', alt: 'Cloe playing' },
   { src: '/images/misiSleeping.jpg', alt: 'Misifu sleeping' },
   { src: '/images/misiANDcloe.jpg', alt: 'Misifu and Cloe together' },
-  { src: '/images/misireading.jpg', alt: 'Misifu reading' },
+  { src: '/images/misiReading.jpg', alt: 'Misifu reading' },
     
 ];
 
